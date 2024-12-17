@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Navigation Bar START*/
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  line-height: 80px;
+  transition: top 0.3s;
+}
+nav {
+  flex: 1;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 25px;
+  transition: all 0.5s ease;
+}
+.nav-logo {
+  width: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 20px;
+}
+nav ul li h1 {
+  overflow: hidden;
+  color: rgb(28, 73, 164);
+  margin-left: 20px;
+  position: absolute;
+}
+nav ul li h6 {
+  float: right;
+  overflow: hidden;
+  color: rgb(28, 73, 164);
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+nav ul li h6:hover {
+  color: rgb(47, 117, 255);
+}
+
+/*Navigation Bar END*/
+
+/*Content START*/
+
+.content {
+  color: rgb(28, 73, 164);
+}
+
+/*Header START*/
+
+.header h1 {
+  font-size: 40px;
+  margin-top: 46px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+.header p {
+  font-size: 20px;
+  margin-bottom: 46px;
+  margin-left: 25px;
+}
+.header img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*Header END*/
+
+/*News START*/
+#above-news {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+#below-news {
+  border: 0;
+  box-shadow: 10px black;
+}
+.news {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+}
+.news h1 {
+  padding: 45px 0px 50px 25px;
+  text-align: center;
+}
+.newsboxes {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+}
+.newsboxes img {
+  margin: 30px 0px 0px 50px;
+  border-style: solid;
+  border-width: 2px;
+}
+.newsboxes h3 {
+  margin-bottom: 10px;
+  padding: 30px 0px 0px 30px;
+}
+.newsboxes p {
+  max-width: 100%;
+  padding: 0px 30px 30px 30px;
+  width: 250px;
+}
+
+.boxnews1 img {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 200px;
+}
+.boxnews2 img {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 200px;
+}
+.boxnews3 img {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 200px;
+}
+.boxnews4 img {
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 200px;
+}
+.boxnews1 {
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0px 20px;
+}
+
+.boxnews2 {
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0px 20px;
+}
+.boxnews3 {
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0px 20px;
+}
+.boxnews4 {
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0px 20px;
+}
+
+/*News END*/
+
+/*mission-vision-core START*/
+
+.mission-vision-core {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.mission-vision-core h5 {
+  margin-left: 26px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mission-vision-core p {
+  font-size: 12px;
+  margin-left: 26px;
+}
+.box1 {
+  padding: 50px 30px;
+  background-color: rgb(35, 66, 130);
+  width: 1500px;
+  box-sizing: border-box;
+}
+
+.box2 {
+  padding: 50px 30px;
+  background-color: rgb(35, 66, 130);
+  width: 1500px;
+}
+.box3 {
+  padding: 50px 30px;
+  background-color: rgb(35, 66, 130);
+  width: 1500px;
+}
+/*mission-vision-core END*/
+
+/*Registraion START*/
+
+.registration {
+  display: flex;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+.registration img {
+  max-width: 100%;
+  width: 600px;
+  overflow: hidden;
+  padding-right: 90px;
+}
+.registration-pad {
+  float: right;
+}
+.enroll {
+  margin-left: -3px;
+  font-size: 60px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.SMSHS {
+  margin-bottom: 10px;
+}
+
+.registration-pad button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 66, 130);
+
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-left: 2px;
+  -webkit-transition: 0.5s;
+  border-style: solid;
+  border-color: rgb(35, 66, 130);
+  border-width: 1px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(35, 66, 130);
+  color: white;
+  -webkit-transition: 0.5s;
+  border-color: rgb(35, 66, 130);
+}
+.registration-pad button p {
+  font-size: 20px;
+}
+
+/*Registraion END*/
+
+/*Mandate START*/
+
+.mandate-box {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.mandate-box h5 {
+  margin-left: 26px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.mandate-box p {
+  font-size: 12px;
+  margin-left: 26px;
+}
+.mandate {
+  box-sizing: border-box;
+  padding: 50px 30px;
+  background-color: rgb(35, 66, 130);
+  width: auto;
+}
+/*Mandate END*/
+
+/* Foorter START*/
+
+#footer {
+  width: auto;
+  background-color: white;
+  height: 200px;
+  padding: 10px;
+}
+.deped {
+  width: 100px;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 75px;
+}
+.footer-img-wrap {
+  float: right;
+  box-sizing: border-box;
+  margin: 0px 50px;
+  padding: 50px 0px;
+}
+.footer-img-wrap img {
+  max-width: 100px;
+  padding: 0px 10px;
+  width: 100px;
+}
+
+#footer h3 {
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+.h3 {
+  display: flex;
+  float: right;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.h3 ul li {
+  list-style: none;
+}
+.h3 ul li h3 {
+  margin-right: 10px;
+}
+.contact {
+  padding-top: 10px;
+  padding-right: 95px;
+}
+.contact h4 {
+  margin-left: 20px;
+}
+.contact a {
+  text-decoration: none;
+  color: rgb(28, 73, 164);
+}
+.contact a:hover {
+  color: rgb(47, 117, 255);
+}
+.follow {
+  padding-top: 10px;
+  color: white;
+}
+.follow a {
+  text-decoration: none;
+  color: white;
+}
+.facebook:hover {
+  opacity: 0.8;
+}
+.facebook {
+  background-color: rgb(59, 89, 152);
+  width: 110px;
+  padding: 4px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.youtube {
+  background-color: rgb(187, 0, 0);
+  width: 110px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 4px;
+  text-align: center;
+}
+.youtube:hover {
+  opacity: 0.8;
+}
+#hr-contact {
+  width: 140px;
+  border-color: rgb(35, 66, 130);
+  border-top: 1px;
+}
+#hr-follow {
+  width: 150px;
+  border-color: rgb(35, 66, 130);
+  border-top: 1px;
+}
+
+/* Footer END*/
+
+/* CSS for Cellphones */
